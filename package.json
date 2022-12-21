@@ -1,0 +1,29 @@
+{
+  "name": "testingchallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosbeto/testingChallenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosbeto/testingChallenge/issues"
+  },
+  "homepage": "https://github.com/nosbeto/testingChallenge#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
