@@ -9,6 +9,10 @@ describe("Employee", () => {
       expect(employee.id).toEqual("1234");
       expect(employee.email).toEqual("alberto@email.com");
       expect(employee.role).toEqual('Employee')
+      expect(employee.getName()).toEqual('Alberto')
+      expect(employee.getId()).toEqual('1234')
+      expect(employee.getEmail()).toEqual('alberto@email.com')
+      expect(employee.getRole()).toEqual('Employee')
     });
   });
 });
