@@ -102,11 +102,3 @@ module.exports = (allClasses) => {
 </html>
     `;
 };
-
-//        // `
-// <p>${manager.name}</p>
-// <p>${manager.id}</p>
-// <p>${manager.email}</p>
-// <p>${manager.role}</p>
-// <p>${manager.officeNumber}</p>
-// `

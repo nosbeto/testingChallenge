@@ -1,7 +1,7 @@
 // name, id, email, getName(), getId(), getEmail(), getRole() --> returns Intern
-const intern = require("../lib/Intern.js");
+const Intern = require("../lib/Intern.js");
 
-describe("intern", () => {
+describe("Intern", () => {
   describe("Initialization", () => {
     it("should return an object intern with 'name', 'id', 'email', and school account when called", () => {
       const intern = new Intern("Alberto", "1234", "alberto@email.com", "UNCC");
